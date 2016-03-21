@@ -39,6 +39,7 @@ sothree:umanoScrollableView="@+id/list"
         android:id="@+id/dragView">
 
         <ImageView
+            android:id="@+id/sliding_panel_arrow"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/ic_keyboard_arrow_up_white_24dp"
@@ -60,7 +61,7 @@ sothree:umanoScrollableView="@+id/list"
                 android:id="@+id/seekBarBrushSize"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:max="20"/>
+                android:max="35"/>
 
         </LinearLayout>
 
@@ -80,7 +81,7 @@ sothree:umanoScrollableView="@+id/list"
                 android:id="@+id/seekBarOpacity"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:max="20"/>
+                android:max="225"/>
         </LinearLayout>
 
         <LinearLayout
@@ -100,25 +101,30 @@ sothree:umanoScrollableView="@+id/list"
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/rectangle_blue_36"
-                    android:layout_weight="1"
+                    android:id="@+id/red_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/rectangle_red_v2_36"
+                    android:background="@drawable/button_border"
                     android:layout_gravity="center"
-                    />
+                    android:layout_marginLeft="20dp" />
                 <!--android:background="@drawable/button_border"-->
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/rectangle_blue_36"
-                    android:layout_weight="1" />
+                    android:id="@+id/green_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/rectangle_green_36"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp" />
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/rectangle_blue_48"
-                    android:layout_weight="1" />
+                    android:id="@+id/blue_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="36dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rectangle_blue_36"
+                    android:layout_marginLeft="50dp" />
 
             </LinearLayout>
 

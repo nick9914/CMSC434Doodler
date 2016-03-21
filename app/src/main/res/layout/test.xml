@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,7 +77,7 @@
                 <ImageButton
                     android:layout_width="50dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/rectangle_blue_36"
+                    android:background="@drawable/rectangle_red_v2_36"
                     android:layout_gravity="center"
                     android:layout_marginLeft="20dp" />
                 <!--android:background="@drawable/button_border"-->
@@ -84,17 +85,18 @@
                 <ImageButton
                     android:layout_width="50dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/rectangle_blue_36"
+                    android:src="@drawable/rectangle_green_36"
                     android:background="@drawable/button_border"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="60dp" />
+                    android:layout_marginLeft="50dp" />
 
                 <ImageButton
                     android:layout_width="50dp"
                     android:layout_height="36dp"
                     android:adjustViewBounds="true"
                     android:background="@drawable/rectangle_blue_36"
-                    android:layout_marginLeft="60dp" />
+                    android:src="@drawable/rectangle_blue_36"
+                    android:layout_marginLeft="50dp" />
 
             </LinearLayout>
 
