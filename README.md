@@ -15,6 +15,9 @@ To run the app, just place the apk found in the in CMSC434Doodler onto your andr
   </tr>
 </table>
 
+## Video
+https://youtu.be/Na8NBPCjGIA
+
 ## Features
 Clear doodle
 
