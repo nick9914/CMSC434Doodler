@@ -7,7 +7,7 @@ To run the app, just place the apk found in the in CMSC434Doodler onto your andr
 <table class="tg">
 <tr>
     <td class="tg-031e"><img src="https://cloud.githubusercontent.com/assets/6146961/13973665/a7c918f0-f07b-11e5-95d1-7f486628391e.png" width=300px height=600px></td>
-    <td class="tg-031e"><img src="https://cloud.githubusercontent.com/assets/6146961/13973659/9e9e455c-f07b-11e5-832f-15474135c01f.png" width=300px height=600px></td>
+    <td class="tg-031e"><img src="https://cloud.githubusercontent.com/assets/6146961/13974208/23c26cbe-f080-11e5-9619-2aabeaa4691d.png" width=300px height=600px></td>
   </tr>
   <tr>
     <td class="tg-031e"><img src="https://cloud.githubusercontent.com/assets/6146961/13973661/a374e626-f07b-11e5-974a-1d24808c408e.png" width=300px height=600px></td>
