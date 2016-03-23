@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton greenButton;
     private ImageButton blueButton;
     private ImageView slidingPanelArrow;
+    private ImageButton clearBtn;
+    private ImageButton undoBtn;
 
 
     @Override
@@ -111,6 +113,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         slidingPanelArrow = (ImageView) findViewById(R.id.sliding_panel_arrow);
+        clearBtn = (ImageButton) findViewById(R.id.clear_btn);
+        clearBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDoodleView.clear();
+            }
+        });
+        undoBtn = (ImageButton) findViewById(R.id.undo_btn);
+        undoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDoodleView.undo();
+            }
+        });
     }
 
     @Override

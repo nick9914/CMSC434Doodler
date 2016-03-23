@@ -16,17 +16,40 @@ sothree:umanoScrollableView="@+id/list"
     sothree:umanoFadeColor="@android:color/transparent">
 
 <!-- MAIN CONTENT -->
-<RelativeLayout
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/clear_btn"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/ic_clear_black_36dp"
+            android:layout_alignParentLeft="true"
+            android:alpha="20" />
+
+        <ImageButton
+            android:id="@+id/undo_btn"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/ic_replay_black_36dp"
+            android:layout_alignParentRight="true"
+            android:alpha="20" />
+
+    </RelativeLayout>
 
     <course.examples.cmsc434doodler.DoodleView
         android:id="@+id/canvas"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</RelativeLayout>
+</LinearLayout>
 
 <!-- SLIDING LAYOUT -->
     <LinearLayout

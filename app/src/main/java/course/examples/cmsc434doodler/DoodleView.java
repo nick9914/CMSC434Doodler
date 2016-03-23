@@ -109,4 +109,16 @@ public class DoodleView extends View {
         mColor = color;
         setPaintProperties();
     }
+
+    public void clear() {
+        mPaths.clear();
+        mPaintObjects.clear();
+        invalidate();
+    }
+
+    public void undo() {
+        mPaths.remove(mPaths.size() - 1);
+        mPaintObjects.remove(mPaintObjects.size() - 1);
+        invalidate();
+    }
 }
